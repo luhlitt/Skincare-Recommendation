@@ -20,10 +20,12 @@ In this project, we selected three datasets to develop the skincare recommendati
 
 ### Data Pre-Processing
 Transforming text in natural language format to numeric representations is a critical component of the proposed methodology.
+The concept of how to use text user reviews was by investigating what products/ingredients were mentioned in the user review. We extracted product keywords from text user reviews to represent products by matching product keywords to a set of predefined products/ingredients.
+
+Afterwards, we did sentiment analysis to derive scores that would serve as user ratings. 
 
 ### Algorithms performed
 1. Matrix Factorisation
 1. Neural Collaborative Filtering
-
-Neural Collaborative Filtering + Topics
-Neural Collaborative Filtering + Reviews
+1. Neural Collaborative Filtering + Topics
+1. Neural Collaborative Filtering + Reviews
