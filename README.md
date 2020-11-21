@@ -15,10 +15,10 @@ As a result of this, we formulated a three-step approach:
 2. Perform sentiment analysis to derive user ratings inferred from sentiment scores.
 3. Model user and item interaction using a deep neural network.
 
-### Data Collection
+### Data Collection 
 In this project, we selected three datasets to develop the skincare recommendation system. The primary dataset is user comments from Reddit.com (r/SkincareAddiction subreddit), the second dataset is a skincare ingredient dictionary scraped from a trusted database, and the third is a list of skincare product scraped from Boots.com. All three datasets were ethically sourced.
 
-### Data Pre-Processing
+### [Data Pre-Processing](https://github.com/luhlitt/Skincare-Recommendation/blob/main/text_pre_processing_%26_user_item_matrix_creation_recommender_system.ipynb)
 Transforming text in natural language format to numeric representations is a critical component of the proposed methodology.
 The concept of how to use text user reviews was by investigating what products/ingredients were mentioned in the user review. We extracted product keywords from text user reviews to represent products by matching product keywords to a set of predefined products/ingredients.
 
@@ -26,6 +26,6 @@ Afterwards, we did sentiment analysis to derive scores that would serve as user 
 
 ### Algorithms performed
 1. [Matrix Factorisation](https://github.com/luhlitt/Skincare-Recommendation/blob/main/NCF_%2B_reviews.ipynb)
-1. Neural Collaborative Filtering
-1. Neural Collaborative Filtering + Topics
-1. Neural Collaborative Filtering + Reviews
+1. [Neural Collaborative Filtering](https://github.com/luhlitt/Skincare-Recommendation/blob/main/NCF.ipynb)
+1. [Neural Collaborative Filtering + Topics](https://github.com/luhlitt/Skincare-Recommendation/blob/main/NCF%20%2B%20topics.ipynb)
+1. [Neural Collaborative Filtering + Reviews](https://github.com/luhlitt/Skincare-Recommendation/blob/main/NCF_%2B_reviews.ipynb)
