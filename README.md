@@ -30,11 +30,18 @@ Afterwards, we did sentiment analysis to derive scores that would serve as user 
 1. [Neural Collaborative Filtering + Topics](https://github.com/luhlitt/Skincare-Recommendation/blob/main/NCF%20%2B%20topics.ipynb)
 1. [Neural Collaborative Filtering + Reviews](https://github.com/luhlitt/Skincare-Recommendation/blob/main/NCF_%2B_reviews.ipynb)
 
+### Conclusion and Next Steps
+
+This project proposed a methodology to skincare recommendation, which has the capability of using text user reviews as the primary source of recommendation knowledge. It is therefore not based on static user-profiles and item catalogues, both of which might not be available in realistic settings. The main components of the system include cleaning of reviews, feature extraction, and using a deep neural network for rating prediction. Based on experimental results, it can be concluded that effective mining of user reviews can reveal some information about customer preferences. By leveraging different review elements for recommendation knowledge, our model is intrinsically more robust to understand the commonalities between users and items.
+
+While feature engineering limits the generalizability of the results, this methodology provides new insight into capturing user interest from text reviews to address rating prediction problems. In future, more advanced unsupervised techniques can be leveraged to extract keywords from comments automatically and to perform sentiment analysis.
+
+Finally, this system, deployed in an e-commerce setting can help narrow customer choice, predicting the products most likely to be purchased by the customer, thus increasing business sales & brand loyalty.
 
 ### References
 1. Esparza, S.G., O’Mahony, M.P. and Smyth, B. (2012) [‘Mining the real-time web: a novel approach to product recommendation'.](https://dl.acm.org/doi/10.1016/j.knosys.2011.07.007)
-1. Chen, L., Chen, G. and Wang, F. (2015) [‘Recommender systems based on user reviews: state of the art’.](https://dl.acm.org/doi/10.1007/s11257-015-9155-5)
 1. McAuley, J. and Leskovec, J. (2013) [‘Hidden factors and hidden topics: understanding rating dimensions with review text’.](https://cs.stanford.edu/people/jure/pubs/reviews-recsys13.pdf)
+1. Chen, L., Chen, G. and Wang, F. (2015) [‘Recommender systems based on user reviews: state of the art’.](https://dl.acm.org/doi/10.1007/s11257-015-9155-5)
 1. Zheng, L., Noroozi, V. and Yu, P.S. (2017) [‘Joint deep modelling of users and items using reviews for recommendation’.](https://arxiv.org/abs/1701.04783)
 1. Shoja, B.M. and Tabrizi, N. (2019) [‘Customer Reviews Analysis With Deep Neural Networks for E-Commerce Recommender Systems’.](https://ieeexplore.ieee.org/document/8813018)
 1. Zhang, S., Yao, L., Sun, A. and Tay, Y. (2019) [‘Deep learning based recommender system: A survey and new perspectives.](https://dl.acm.org/doi/10.1145/3285029)
