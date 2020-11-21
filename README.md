@@ -14,3 +14,16 @@ As a result of this, we formulated a three-step approach:
 1. Identify the topics mentioned in the reviews.
 2. Perform sentiment analysis to derive user ratings inferred from sentiment scores.
 3. Model user and item interaction using a deep neural network.
+
+### Data Collection
+In this project, we selected three datasets to develop the skincare recommendation system. The primary dataset is user comments from Reddit.com (r/SkincareAddiction subreddit), the second dataset is a skincare ingredient dictionary scraped from a trusted database, and the third is a list of skincare product scraped from Boots.com. All three datasets were ethically sourced.
+
+### Data Pre-Processing
+Transforming text in natural language format to numeric representations is a critical component of the proposed methodology.
+
+### Algorithms performed
+1. Matrix Factorisation
+1. Neural Collaborative Filtering
+
+Neural Collaborative Filtering + Topics
+Neural Collaborative Filtering + Reviews
