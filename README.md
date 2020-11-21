@@ -31,7 +31,7 @@ Afterwards, we did sentiment analysis to derive scores that would serve as user 
 1. [Neural Collaborative Filtering + Reviews](https://github.com/luhlitt/Skincare-Recommendation/blob/main/NCF_%2B_reviews.ipynb)
 
 
-References
+### References
 1. Esparza, S.G., O’Mahony, M.P. and Smyth, B. (2012) [‘Mining the real-time web: a novel approach to product recommendation'.](https://dl.acm.org/doi/10.1016/j.knosys.2011.07.007)
 1. Chen, L., Chen, G. and Wang, F. (2015) [‘Recommender systems based on user reviews: state of the art’.](https://dl.acm.org/doi/10.1007/s11257-015-9155-5)
 1. McAuley, J. and Leskovec, J. (2013) [‘Hidden factors and hidden topics: understanding rating dimensions with review text’.](https://cs.stanford.edu/people/jure/pubs/reviews-recsys13.pdf)
