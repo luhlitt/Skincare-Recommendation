@@ -25,7 +25,7 @@ The concept of how to use text user reviews was by investigating what products/i
 Afterwards, we did sentiment analysis to derive scores that would serve as user ratings. 
 
 ### Algorithms performed
-1. Matrix Factorisation
+1. [Matrix Factorisation] (https://github.com/luhlitt/Skincare-Recommendation/blob/main/NCF_%2B_reviews.ipynb)
 1. Neural Collaborative Filtering
 1. Neural Collaborative Filtering + Topics
 1. Neural Collaborative Filtering + Reviews
