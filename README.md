@@ -36,4 +36,6 @@ Afterwards, we did sentiment analysis to derive scores that would serve as user 
 1. Chen, L., Chen, G. and Wang, F. (2015) [‘Recommender systems based on user reviews: state of the art’.](https://dl.acm.org/doi/10.1007/s11257-015-9155-5)
 1. McAuley, J. and Leskovec, J. (2013) [‘Hidden factors and hidden topics: understanding rating dimensions with review text’.](https://cs.stanford.edu/people/jure/pubs/reviews-recsys13.pdf)
 1. Zheng, L., Noroozi, V. and Yu, P.S. (2017) [‘Joint deep modelling of users and items using reviews for recommendation’.](https://arxiv.org/abs/1701.04783)
+1. Shoja, B.M. and Tabrizi, N. (2019) [‘Customer Reviews Analysis With Deep Neural Networks for E-Commerce Recommender Systems’.](https://ieeexplore.ieee.org/document/8813018)
+1. Zhang, S., Yao, L., Sun, A. and Tay, Y. (2019) [‘Deep learning based recommender system: A survey and new perspectives.](https://dl.acm.org/doi/10.1145/3285029)
 1. Srifi, M., Oussous, A., Lahcen, A.A. and Mouline, S. (2020) [‘Recommender Systems Based on Collaborative Filtering Using Review Texts—A Survey’](https://www.mdpi.com/2078-2489/11/6/317)
