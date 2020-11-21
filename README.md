@@ -9,6 +9,7 @@ In this project, we aim to leverage the rich and valuable knowledge contained in
 The recommendation system learns to model users and item interactions for collaborative filtering using text reviews. In order to develop the model, the following assumptions were made:
 1. User-written reviews may be used to represent items and users.
 2. The user reviews may imply the user’s preferences for the item under discussion.
+
 As a result of this, we formulated a three-step approach:
 1. Identify the topics mentioned in the reviews.
 2. Perform sentiment analysis to derive user ratings inferred from sentiment scores.
