@@ -32,11 +32,9 @@ Afterwards, we did sentiment analysis to derive scores that would serve as user 
 
 ### Conclusion and Next Steps
 
-This project proposed a methodology to skincare recommendation, which has the capability of using text user reviews as the primary source of recommendation knowledge. It is therefore not based on static user-profiles and item catalogues, both of which might not be available in realistic settings. The main components of the system include cleaning of reviews, feature extraction, and using a deep neural network for rating prediction. Based on experimental results, it can be concluded that effective mining of user reviews can reveal some information about customer preferences. By leveraging different review elements for recommendation knowledge, our model is intrinsically more robust to understand the commonalities between users and items.
+This project proposed a methodology to skincare recommendation, which has the capability of using text user reviews as the primary source of recommendation knowledge. It is therefore not based on static user-profiles and item catalogues, both of which might not be available in realistic settings. The main components of the system include cleaning of reviews, feature extraction, and using a deep neural network for rating prediction. Based on experimental results, it can be concluded that effective mining of user reviews can reveal some information about customer preferences. 
 
-While feature engineering limits the generalizability of the results, this methodology provides new insight into capturing user interest from text reviews to address rating prediction problems. In future, more advanced unsupervised techniques can be leveraged to extract keywords from comments automatically and to perform sentiment analysis.
-
-Finally, this system, deployed in an e-commerce setting can help narrow customer choice, predicting the products most likely to be purchased by the customer, thus increasing business sales & brand loyalty.
+This system deployed in an e-commerce setting can help narrow customer choice, predicting the products most likely to be purchased by the customer, thus increasing business sales & brand loyalty.
 
 ### References
 1. Esparza, S.G., O’Mahony, M.P. and Smyth, B. (2012) [‘Mining the real-time web: a novel approach to product recommendation'.](https://dl.acm.org/doi/10.1016/j.knosys.2011.07.007)
